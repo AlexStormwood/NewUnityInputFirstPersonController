@@ -1,7 +1,3 @@
----
-typora-root-url: ./
----
-
 # New Unity Input First Person Controller
  Cross-platform first-person controller demo, for M&KB and gamepad.
 
