@@ -1,6 +1,13 @@
 # New Unity Input First Person Controller
  Cross-platform first-person controller demo, for M&KB and gamepad.
 
+# Package Info
+
+* Unity 2020.1.1f1
+* Input System 1.0.0
+
+# Project Explanation
+
 This is a reeeeeeeeally basic first-person character controller that can simply move, turn around, and look around. It has support for "two" control schemes: keyboard & mouse, and gamepad.
 
 Because "gamepad" is generic, this technically works for Xbox, Playstation and Nintendo Switch without general modification anyway (you would still have to do controller detection in those platforms SDKs when relevant but that's beyond scope of this demo). It's good practice to make specific control schemes for those platforms when possible - this demo does not do that, and instead sticks to the generic gamepad.
