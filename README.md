@@ -45,7 +45,9 @@ So, how does the New Input System interact with the player to make it move & tur
 
 <img src="/ReadmeAssets/InspectorOfPlayer.png" style="zoom:150%;" />
 
-The BasicPlayerController.cs file should have some nice, readable code comments for you. But the general idea is this:
+The BasicPlayerController.cs file should have some nice, readable code comments for you. Check it out here: [BasicPlayerController.cs](https://github.com/AlexHolderDeveloper/NewUnityInputFirstPersonController/blob/master/Assets/Scripts/Gameplay/BasicPlayerController.cs)
+
+But the general idea is this:
 
 * The MoveInputs and LookInputs vector2 variables are tied to the PlayerInput component. When inputs are received in the PlayerInput component, the data is fed through to some functions in the BasicPlayerController component that updates those vector2 variables in the BasicPlayerController script.
 * In the BasicPlayerController's Update function, the player turning & looking logic is handled. 
