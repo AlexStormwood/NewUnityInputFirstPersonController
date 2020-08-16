@@ -13,8 +13,8 @@ public class BasicPlayerController : MonoBehaviour
     public float turnSpeed = 100; // multiplier for turning
 
     [Header("Looking")]
-    public Transform playerHead; // to look, rotate head, not body or this
-    public float lookAngleRange = 60; // 60' up, 60' right
+    public Transform playerHead; // to look, rotate head or body (axis depending), not this
+    public float lookAngleRange = 60; // 60' up, 60' down
     private float camRotation = 0; // current camera up/down rotation value
 
     #region Receive Input Values
